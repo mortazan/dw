@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # Newer Flutter versions mark package:flutter/material.dart as deprecated
+    # in favour of package:material_ui. Silenced until the app migrates.
+    deprecated_member_use: ignore
